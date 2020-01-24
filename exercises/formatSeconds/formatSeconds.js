@@ -17,7 +17,15 @@
  */
 
 function formatSeconds(num) {
-  // This is your job. :)
+for (let min=secs/60) {
+if (secs>60);
+count+=1 (min)
+} else {
+
+return secs;
+}
+}
+
 
   // Remember, if the code is stumping you, take a step back and
   // make sure you can do it by hand.
