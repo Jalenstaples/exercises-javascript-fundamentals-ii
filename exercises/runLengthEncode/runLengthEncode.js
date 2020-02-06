@@ -21,8 +21,24 @@
  */
 
 function runLengthEncode(num) {
-  // This is your job. :)
 
+let newArr=[];
+let count=1
+for (let i = 0; i < num.length; i++) {
+
+  if (num[i]===num[i+1]){
+
+count+=1
+} else {
+newArr.push(count,num[i])
+count=1
+}
+}
+let newStr=''
+for (let i of newArr){
+newStr=newStr+i }
+console.log(newStr);
+return newStr
   // Remember, if the code is stumping you, take a step back and
   // make sure you can do it by hand.
 }
